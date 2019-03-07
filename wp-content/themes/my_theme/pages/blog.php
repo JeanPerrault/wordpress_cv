@@ -5,6 +5,20 @@ Template Name: blog (pages/blog.php)
 get_header()
 ?>
 
-C'est ma page de Blog
+
+<h3>Derniers articles</h3>
+<ul>
+<?php
+    $recentPosts = new WP_Query();
+    $recentPosts->query('showposts=5');
+?>
+<?php while ($recentPosts->have_posts()) : $recentPosts->the_post(); ?>
+    <li><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></li>
+<?php endwhile; ?>
+</ul>
+
+
+
+<!-- C'est ma page de Blog -->
 
 <?php get_footer() ?>
