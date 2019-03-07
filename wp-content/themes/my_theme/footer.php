@@ -1,7 +1,4 @@
-        </div>
-        <div class="col-6">
 
-            <main id="main-content">
               <b>EXPERIENCES</b> : <br>
                Pas mal, vu mon grand âge <br>
                dfsdsddssdfsdf <br>

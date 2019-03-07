@@ -44,6 +44,10 @@
 
     <div class="row">
         <div class="col-6">
+        <?php get_sidebar() ?>
+        </div>
+        <div class="col-6">
 
+            <main id="main-content">
             
         
