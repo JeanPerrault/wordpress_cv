@@ -2,6 +2,7 @@
 #main-header{
     /* background-color: antiquewhite; */
     padding: 50px;
+    background-color: darksalmon;
 }
 #main-content{
     /* background-color: aquamarine; */
@@ -13,6 +14,9 @@
 }
 #main-footer{
     padding: 15px;
+    background-color: black;
+    text-align: center;
+    color: white;
 }
 
 #navbarDropdownMenuLink{

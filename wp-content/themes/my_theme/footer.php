@@ -2,7 +2,7 @@
         <div class="col-6">
 
             <main id="main-content">
-               EXPERIENCES : <br>
+              <b>EXPERIENCES</b> : <br>
                dfsdsddssdfsdf <br>
                dfsdsddssdfsdf <br>
                dfsdsddssdfsdf <br>
@@ -10,7 +10,7 @@
                dfsdsddssdfsdf <br>
                <br>
                <br>
-               ETUDES : <br>
+               <b>ETUDES</b> : <br>
                dfsdsddssdfsdf <br>
                dfsdsddssdfsdf <br>
                dfsdsddssdfsdf <br>
@@ -21,7 +21,7 @@
     </div>
 
     <footer id="main-footer">
-        FOOTER
+    Copyright &copy; 2019 - <?= date('Y') ?> Jean PERRAULT.
     </footer>
 
     <?php wp_footer() ?>
