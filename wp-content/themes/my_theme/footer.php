@@ -3,7 +3,7 @@
 
             <main id="main-content">
               <b>EXPERIENCES</b> : <br>
-               dfsdsddssdfsdf <br>
+               Beaucoup vu mon grand âge <br>
                dfsdsddssdfsdf <br>
                dfsdsddssdfsdf <br>
                dfsdsddssdfsdf <br>
@@ -11,7 +11,7 @@
                <br>
                <br>
                <b>ETUDES</b> : <br>
-               dfsdsddssdfsdf <br>
+               Très peu.... <br>
                dfsdsddssdfsdf <br>
                dfsdsddssdfsdf <br>
                dfsdsddssdfsdf <br>

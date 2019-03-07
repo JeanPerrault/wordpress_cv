@@ -18,7 +18,7 @@
 <header id="main-header">
     <div class="row">
         <div class="col-6 nom">
-           <b>PERRAULT Jean</b>
+           <h1>PERRAULT Jean</h1>
         </div>
         <div class="col-6">
          <nav class="navbar navbar-expand-lg "> 
