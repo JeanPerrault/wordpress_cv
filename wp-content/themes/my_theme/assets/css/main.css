@@ -1,0 +1,24 @@
+
+#main-header{
+    /* background-color: antiquewhite; */
+    padding: 50px;
+}
+#main-content{
+    /* background-color: aquamarine; */
+    /* padding: 500px; */
+}
+#main-sidebar{
+    /* background-color: beige; */
+    text-align: center;
+}
+#main-footer{
+    padding: 15px;
+}
+
+#navbarDropdownMenuLink{
+    color: black;
+}
+.nom{
+    text-align: center;
+}
+
