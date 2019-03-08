@@ -62,3 +62,6 @@ function get_image($photo){
     return WP_THEME."assets/images/".$photo;
 }
 
+// ajout 
+  include_once "includes/portfolio.php";
+
