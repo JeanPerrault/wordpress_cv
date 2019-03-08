@@ -61,7 +61,8 @@ remove_action("wp_head", "wp_generator");
 function get_image($photo){
     return WP_THEME."assets/images/".$photo;
 }
-
-// ajout 
+// ajout des customs post
   include_once "includes/portfolio.php";
 
+//ajout des shortcode
+include_once "includes/copyright_shortcode.php";
