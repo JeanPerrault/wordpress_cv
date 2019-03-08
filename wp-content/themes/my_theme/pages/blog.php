@@ -1,31 +1,35 @@
 <?php
 /*
-Template Name: blog (pages/blog.php)
+Template Name: Blog
 */
-get_header()
+
+$BlogPosts = new WP_Query();
+$BlogPosts->query([
+    "showposts" => 5
+]);
+
 ?>
+<?php get_header() ?>
 
+<!-- Est-ce que j'ai des Posts ? -->
+<?php if ( $BlogPosts->have_posts() ): ?>
 
-<!-- <h3>Derniers articles</h3>
-<ul>
-<?php
-    $recentPosts = new WP_Query();
-    $recentPosts->query('showposts=5');
-?>
-<?php while ($recentPosts->have_posts()) : $recentPosts->the_post(); ?>
-    <li><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></li>
-<?php endwhile; ?>
-</ul> -->
+    <!-- Je boucle tant que j'ai des posts -->
+    <?php while ( $BlogPosts->have_posts()): ?>
 
+        <!-- j'initialise les données de mon post -->
+        <?php $BlogPosts->the_post(); ?>
 
-<?php
-$args = array( 'numberposts' => 5, 'order'=> 'ASC', 'orderby' => 'title' );
-$postslist = get_posts( $args );
-foreach ($postslist as $post) :  setup_postdata($post); ?> 
+        <!-- Titre du post -->
+        <h1><?= get_the_title() ?></h1>
 
-        <b><?php the_title(); ?></b><br>
-        <?php the_excerpt(); ?>
-<?php endforeach; ?>
+        <!-- Contenu de l'article -->
+        <?php // the_content() ?>
+        <?php //the_excerpt() ?>
+        <a href="<?= get_the_permalink() ?>"><?= get_the_excerpt() ?></a>
 
+    <?php endwhile; ?>
+
+<?php endif; ?>
 
 <?php get_footer() ?>
