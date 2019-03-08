@@ -11,6 +11,7 @@ $BlogPosts->query([
 ?>
 <?php get_header() ?>
 
+
 <!-- Est-ce que j'ai des Posts ? -->
 <?php if ( $BlogPosts->have_posts() ): ?>
 
